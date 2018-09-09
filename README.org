@@ -1,0 +1,61 @@
+* python-odota
+Python API wrapper for the OpenDota API
+
+NOTE: Any individual uses of the API without a key will be limited to 50,000 calls per month
+
+** List of functions
+#+BEGIN_SRC
+Load.match
+Load.proMatches
+Load.publicMatches
+Load.explorer
+Load.search
+Load.rankings
+Load.benchmarks
+Load.request_job
+Load.request_match
+Load.replays
+Load.records
+Load.itemTimings
+Load.laneRoles
+Load.miscScenarios
+Load.live
+Load.heroStats
+Load.leagues
+Load.heroes
+Load.metadata
+Load.teams
+Load.distributions
+Load.proPlayers
+Load.status
+Load.apiMetrics
+Load.health
+Load.schema
+Team.team
+Team.matches
+Team.players
+Team.heroes
+Hero.matches
+Hero.matchups
+Hero.durations
+Hero.players
+Player.player
+Player.wl
+Player.recentMatches
+Player.matches
+Player.heroes
+Player.peers
+Player.pros
+Player.totals
+Player.counts
+Player.histograms
+Player.wardmap
+Player.wordcloud
+Player.ratings
+Player.rankings
+Player.refresh
+#+END_SRC
+
+Documentation coming soon...
+
+To read more about the OpenDota API, you can view it's documentation here: https://docs.opendota.com/
