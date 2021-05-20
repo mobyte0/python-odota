@@ -1,6 +1,6 @@
 import requests
 
-URL = 'https://api.opendota.com/teams/'
+URL = 'https://api.opendota.com/api/teams/'
 
 
 class Team(object):
