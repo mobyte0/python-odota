@@ -1,6 +1,6 @@
 import requests
 
-URL = 'https://api.opendota.com/heroes/'
+URL = 'https://api.opendota.com/api/heroes/'
 
 
 class Hero(object):
